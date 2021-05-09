@@ -1,0 +1,139 @@
+body{
+    background-color: lightskyblue;
+    height: 1888px;
+    /* display: flex;
+    justify-content: center;
+    margin-top: 80px; */
+}
+
+.display {
+    background-color: lime;
+    height: 60px;
+    width: 380px;
+    border-radius: 10px;
+    padding:20px;
+    border: solid 20px rgb(184,83,83) ;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.top {
+    height: 40px;
+    width: 200px;
+    margin-left: 130px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background-color: rgb(184,83,83) ;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.circle {
+    background-color: yellow;
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+    margin-left: 2rem;
+}
+.flower {
+    width: 280px;
+    height: 100px;
+    background-color: hotpink;
+    border-radius: 50px;
+    margin-top: 100px;
+}
+.flower::before {
+    content: "";
+    display: block;
+    position: absolute;;
+    width: 280px;
+    height: 100px;
+    background-color: hotpink;
+    border-radius: 50px;
+    transform: rotate(60deg);
+}
+.flower::after {
+    content: "";
+    display: block;
+    width: 280px;
+    height: 100px;
+    background-color: hotpink;
+    border-radius: 50px;
+    transform: rotate(-60deg);
+}
+ svg {
+    fill: red;
+}
+/* .ball {
+    background-color: rebeccapurple;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin: 20px;
+} */
+/*next prev face style*/
+/* .face {
+    position: absolute;
+    background-color: bisque;
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+    margin-left: 35vw;
+    margin-top: 80px;
+}
+
+.eye-container {
+    display: flex;
+    flex-direction: row;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+.eye {
+     background-color: white;
+     height: 40px;
+     width: 40px;
+     border-radius: 20px;
+     margin:10px;
+}
+.pupil {
+    background-color: black;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    margin:10px 0 10px 20px;
+}
+.arrow  {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.geri {
+    background-color: rebeccapurple;
+    height: 3rem;
+    width: 3rem;;
+}
+.geri:hover {
+    background-color: white;
+    border:1px solid rebeccapurple;
+    color: rebeccapurple;
+}
+
+.ileri {
+    background-color: yellow;
+    height: 3rem;
+    width: 3rem;;
+}
+.ileri:hover {
+    background-color: white;
+    border : 1px solid yellow;
+    color: yellow;
+}
+.text-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+} */
