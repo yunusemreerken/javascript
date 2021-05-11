@@ -831,3 +831,73 @@
 
 
 //addEventListener
+
+
+// target.addEventListener(event,function)
+
+// const hexagon = document.getElementById('hexagon')
+
+// function alertMe(){
+//     console.log('clicked')
+// }
+
+// hexagon.addEventListener('dblclick', alertMe)
+
+// document.addEventListener('DOMContentLoaded',() => {
+
+
+
+// })
+// target.addEventListener(event,function)
+
+// const body = document.querySelector('body')
+
+// body.addEventListener('click',function() { console.log('clicked')})
+
+//remove EventListener example
+// const circle = document.querySelector('.circle')
+// let count = 0
+// function toggleColor() {
+//     circle.classList.toggle('red-circle')
+//     count++
+//     console.log(count)
+//     if(count>10){
+//         circle.removeEventListener('click',toggleColor)
+//     }
+// }
+// circle.addEventListener('click',toggleColor)
+
+
+// const circle = document.querySelector('.circle')
+// let height = 0
+
+// function moveCircle(){
+//     height+=50
+//     circle.style.top = height + 'px'
+//     if(height>300){
+//         circle.removeEventListener('click',moveCircle)
+//     }
+    
+// }
+
+// circle.addEventListener('click',moveCircle)
+
+//.query selector()
+
+// const  circle = document.querySelector('.circle')
+
+// console.log(circle)
+
+// //.querySelectorAll()
+
+// const  circle = document.querySelectorAll('#main')
+
+// console.log(circle)
+
+
+
+//.getByElementId()
+
+const  circle = document.getElementById('main')
+
+console.log(circle)
