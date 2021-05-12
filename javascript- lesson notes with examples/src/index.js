@@ -1031,3 +1031,35 @@
 // }
 
 // let timerId = setInterval(moveCircle,1000) 
+
+//classes
+
+//class declaration
+
+// class Rectangle {
+//     constructor(height,width){
+//         this.width = width;
+//         this.height = height;
+//     }
+// }
+
+// const newRectangle = new Rectangle(300,100)
+
+// console.log(newRectangle)
+
+class Ghost{
+    constructor(Classname,speed,color,startingPoint) {
+        this.Classname = Classname;
+        this.speed = speed;
+        this.color = color;
+        this.startingPoint = startingPoint;
+    }
+}
+const blinky = new Ghost('blinky',300,'blue',4)
+const inky = new Ghost('inky',250,'green',10)
+const pinky = new Ghost('pinky',350,'pink',20)
+const clyde = new Ghost('clyde',250,'orange',15)
+
+
+console.log(blinky.speed)
+console.log(inky.startingPoint)
