@@ -898,6 +898,136 @@
 
 //.getByElementId()
 
-const  circle = document.getElementById('main')
+// const  circle = document.getElementById('main')
 
-console.log(circle)
+// console.log(circle)
+
+//Math.random()---------------------------------------------------------sdsd----------
+
+// const Tetrominoes = ['LTetro','ZTetro','iTetro']
+
+// // console.log(Math.random() * 20)//0 to <20
+// // console.log(Math.random() * Tetrominoes.length) //0 to <3
+
+// const randomNumber = Math.random() * Tetrominoes.length
+// //math.floor - ronds numbers down to the nearest full integer
+// //math.ceil() - round up
+// // Math.round() round to nearest ineteger
+// console.log(randomNumber)
+
+// const  randomInteger = Math.floor(randomNumber)
+// console.log(randomInteger)
+// console.log(Tetrominoes[randomInteger])
+
+// const drinksMenu = ['Cola', 'Lemonade', 'Coffee', 'Water']
+
+// const randomNumber = Math.random() *  drinksMenu.length
+// console.log(randomNumber)
+
+// const randomInteger  = Math.ceil(randomNumber)
+// console.log(randomInteger)
+
+// console.log(drinksMenu[randomInteger])
+
+// console.log (drinksMenu[Math.floor(Math.random() * drinksMenu.length)])
+
+
+//Date 
+// const dateDisplay = document.querySelector('.circle .timer')
+
+// const today = new Date() 
+// const date  = today.getDate()//the date, today is the 12th
+
+// const day  = today.getDay() //the day of the week
+
+// const fullYear = today.getFullYear()
+
+// const hours = today.getHours()
+
+// const isoString = today.toISOString()
+
+// console.log(isoString)
+
+// const Christmas = new Date('2021-12-24T14:32:04.787Z')
+// console.log(Christmas)
+
+// console.log(Christmas - today)
+
+// const millsecondsToXmas = Christmas - today
+
+// const minutes = (millsecondsToXmas / 60000)
+
+// console.log(minutes)
+// dateDisplay.innerHTML ='Yeni yıla kalan dakika \n' + Math.round(minutes)
+
+//setTimeout()
+//syntax
+// setTimeout(function,miliseconds)
+// const circle  = document.querySelector('.timer')
+// const time = 3000
+// function showText() {
+//     circle.innerHTML = 'hi, dude whats \'up'
+// }
+
+// setTimeout( showText, time)
+
+// function deleteText() {
+//     circle.innerHTML=''
+// }
+// // setTimeout(deleteText,10000)
+
+// setTimeout(function() {
+//     circle.innerHTML = ''
+// },10000)
+// const circle  = document.querySelector('.circle')
+
+// function deleteCircle() {
+//     circle.style.display = 'none'
+
+// }
+// setTimeout(deleteCircle,5000)
+
+//setInterval()
+//syntax
+// setInterval(function, milliseconds)
+
+// const bubble = document.querySelector('.timer')
+// const text = 'Alert!'
+
+// const time = 2000
+
+// function showAlert () {
+//     const textDisplay  = document.createElement('div')
+//     textDisplay.innerHTML = text
+
+//     bubble.appendChild(textDisplay)
+
+// }
+// // setInterval(showAlert,2000)
+
+
+// function printName() {
+//     console.log('Yunus Emre')
+// }
+
+// const timerId = setInterval(printName, 5000)
+// console.log(timerId)
+
+// clearInterval(timerId)
+//clearInterval method 
+
+
+// const circle = document.querySelector('.circle')
+// let height = 100
+// function moveCircle() {
+//     height+=20
+//     circle.style.top= height + 'px'
+//     console.log(height)
+//     if(height >=300){
+//         clearInterval(timerId )
+//     }
+
+     
+// }
+
+// let timerId = setInterval(moveCircle,1000) 
