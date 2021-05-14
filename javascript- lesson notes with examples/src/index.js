@@ -1,7 +1,7 @@
 // // document.addEventListener('DOMContentLoaded',() =>{
 
 
-    
+
 // // })
 
 // //2 =>variables
@@ -248,7 +248,7 @@
 // for (let i = 0; i < 10; i++) {
 //     if (i===0) {
 //     console.log(i +1 + ' beer on the wall')
-        
+
 //     }else{
 
 //         console.log(i +1 + ' beers on the wall')
@@ -315,7 +315,7 @@
 //     if (!users[i].is_followed) {
 //         console.log('Hi, '+users[i].username + ' long time no speak! ')
 //     }
-    
+
 // }
 
 //functions 
@@ -471,7 +471,7 @@
 //         length:12
 //     },
 //     {
-    
+
 //         name :'Fear',
 //         length:'124'
 //     }
@@ -568,7 +568,7 @@
 // console.log(circles)
 
 // // Array.array.forEach(element => {
-    
+
 // // });
 // // circles.forEach(x =>x.style.backgroundColor = 'red')//x ' is doesnt metter
 
@@ -877,7 +877,7 @@
 //     if(height>300){
 //         circle.removeEventListener('click',moveCircle)
 //     }
-    
+
 // }
 
 // circle.addEventListener('click',moveCircle)
@@ -1027,7 +1027,7 @@
 //         clearInterval(timerId )
 //     }
 
-     
+
 // }
 
 // let timerId = setInterval(moveCircle,1000) 
@@ -1047,19 +1047,104 @@
 
 // console.log(newRectangle)
 
-class Ghost{
-    constructor(Classname,speed,color,startingPoint) {
-        this.Classname = Classname;
-        this.speed = speed;
-        this.color = color;
-        this.startingPoint = startingPoint;
-    }
-}
-const blinky = new Ghost('blinky',300,'blue',4)
-const inky = new Ghost('inky',250,'green',10)
-const pinky = new Ghost('pinky',350,'pink',20)
-const clyde = new Ghost('clyde',250,'orange',15)
+// class Ghost{
+//     constructor(Classname,speed,color,startingPoint) {
+//         this.Classname = Classname;
+//         this.speed = speed;
+//         this.color = color;
+//         this.startingPoint = startingPoint;
+//     }
+// }
+// const blinky = new Ghost('blinky',300,'blue',4)
+// const inky = new Ghost('inky',250,'green',10)
+// const pinky = new Ghost('pinky',350,'pink',20)
+// const clyde = new Ghost('clyde',250,'orange',15)
 
 
-console.log(blinky.speed)
-console.log(inky.startingPoint)
+// console.log(blinky.speed)
+// console.log(inky.startingPoint)
+
+//keys()
+//switch statement
+// const circle = document.querySelector('.circle')
+// let xAxis = 0
+// let yAxis = 0
+// let current = 50
+
+// function control(e) {
+//     // if (e.keyCode === 37){
+//     //     console.log('pressed Left')
+//     // }else if (e.key ==='ArrowRight'){
+//     //     console.log('pressed right')
+//     // }
+//     // else if (e.key ==='ArrowUp'){
+//     //     console.log('pressed up')
+//     // }
+//     // else if (e.key ==='ArrowDown'){
+//     //     console.log('pressed down')
+//     // }
+//     switch (e.key) {
+//         case 'ArrowLeft':
+//             console.log('Pressed Left')
+//             xAxis-=current
+//             circle.style.left = xAxis + 'px'
+
+//             break;
+//         case 'ArrowRight':
+//             console.log('Pressed Right')
+//             xAxis+=current
+//             circle.style.left = xAxis + 'px'
+//             break;
+
+//         case 'ArrowUp':
+//             console.log('Pressed Up')
+//             yAxis-=current
+//             circle.style.top = yAxis + 'px'
+//             break;
+//         case 'ArrowDown':
+//             console.log('Pressed Down' + e.key)
+//             yAxis+=current
+//             circle.style.top = yAxis + 'px'
+//             break;
+//         default:
+//             console.log(e.keyCode)
+//     }
+// }
+// document.addEventListener('keydo
+// const circle = document.querySelector('.circle')
+// const mouth = document.querySelector('#mouth')
+// function UpDown(e) {
+//     switch (e.key) {
+//         case 'ArrowUp':
+//             console.log('Pressed Up')
+//             mouth.classList.remove('sad-mouth')
+//             mouth.classList.add('happy-mouth')
+//             break;
+//         case 'ArrowDown':
+//             console.log('Pressed Down' + e.key)
+//             mouth.classList.remove('happy-mouth')
+//             mouth.classList.add('sad-mouth')
+
+//             break;
+//         default:
+//             console.log(e.keyCode + 'is not recognized this application')
+//     }
+
+// }
+
+// document.addEventListener('keydown', UpDown)
+
+
+//.sort()
+
+// const planets = ['Mars','Jupiter','Uranus','Earth']
+
+// console.log(planets.sort())
+
+// const ages = [33,55,232,552,1,44,-5]
+// console.log(ages.sort())
+
+//includes()
+const books = ['Alf','Life of Pie','Power of Now']
+
+console.log(books.includes('Alf'))
