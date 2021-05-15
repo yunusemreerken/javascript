@@ -1145,6 +1145,26 @@
 // console.log(ages.sort())
 
 //includes()
-const books = ['Alf','Life of Pie','Power of Now']
+// const books = ['Alf','Life of Pie','Power of Now']
 
-console.log(books.includes('Alf'))
+// console.log(books.includes('Alf'))
+
+//.createElement()
+
+const square = document.createElement('div')
+const body = document.querySelector('body')
+const img =document.createElement('img')
+body.appendChild(square)
+body.appendChild(img)
+
+//.setAttribute()
+img.setAttribute('src','src/images/pexels-nicole-avagliano-2312040.jpg')
+img.setAttribute('alt','yunusemre')
+img.setAttribute('class','image')
+
+//.getAttribute()
+const imagePath = img.getAttribute('src')
+const imageClass = img.getAttribute('class')
+console.log(imagePath)
+console.log(imageClass)
+console.log(body)
