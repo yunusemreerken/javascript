@@ -197,3 +197,12 @@ body{
     margin-top: 50px;
     margin-left: 150px;
 }
+div {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+.image  {
+    width: 100px;
+    height: 100px;
+}
